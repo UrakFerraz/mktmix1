@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html ⚡ lang="pt-BR">
+  <head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <!-- <link rel="canonical" href="./regular-html-version.html"/> -->
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/>
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus inventore laborum, debitis. Totam consequuntur sed sint quis eaque aspernatur, a?">
+<!--     <style amp-custom>
+
+    </style> -->
+
+
+<!--     <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Article headline",
+        "image": ["thumbnail1.jpg"],
+        "datePublished": "2015-02-05T08:00:00+08:00"
+      }
+    </script> -->
+
+
+
+  <style amp-boilerplate> body {-webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both; } @-webkit-keyframes -amp-start {from {visibility: hidden; } to {visibility: visible; } } @-moz-keyframes -amp-start {from {visibility: hidden; } to {visibility: visible; } } @-ms-keyframes -amp-start {from {visibility: hidden; } to {visibility: visible; } } @-o-keyframes -amp-start {from {visibility: hidden; } to {visibility: visible; } } @keyframes -amp-start {from {visibility: hidden; } to {visibility: visible; } } </style> <noscript ><style amp-boilerplate> body {-webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none; } </style></noscript>
+
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-date-picker" src="https://cdn.ampproject.org/v0/amp-date-picker-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+    <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" type="text/css" href="css/config.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mediaQueries.css">
+
+
+  </head>
+
+
+  <body onload="init()">
+
+
+
+
+
+
+
+
+
+
+<!-- início fullContainer -->
+<div id="main">
+
+
+<div class="heroBg">
+  <amp-img layout="fill" class="cover" alt="Mkt Mix Background" src="img/pexels-flora-westbrook-3371358.jpg"> </amp-img>
+</div>
+
+<div class="fadeBlank"></div>
+
+<div class="headerWrapper flex">
+  <div class="headerLogoWrapper flex">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320.3 320.3" width="60" height="60"> <circle cx="160.2" cy="160.2" r="160.2"/> <path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M70.3,116.7c0-5.3-0.1-9.6-0.4-13.8h8l0.4,8.2 h0.3c2.8-4.9,7.5-9.4,15.8-9.4c6.8,0,12,4.2,14.2,10.2h0.2c1.6-2.9,3.5-5.1,5.6-6.7c3-2.3,6.3-3.6,11.1-3.6 c6.6,0,16.5,4.4,16.5,22.2V154h-8.9v-28.9c0-9.8-3.5-15.7-10.9-15.7c-5.2,0-9.2,3.9-10.8,8.4c-0.4,1.3-0.7,3-0.7,4.6V154h-8.9 v-30.6c0-8.1-3.5-14-10.5-14c-5.7,0-9.9,4.6-11.3,9.3c-0.5,1.4-0.7,3-0.7,4.5V154h-8.9V116.7z"/> <path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M174.7,126.4h0.2c1.2-1.8,3-4,4.5-5.8 l14.7-17.6h11l-19.4,21l22.1,30.1h-11.1l-17.3-24.5l-4.7,5.3V154h-9V79h9V126.4z"/> <path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M236.1,91.2v11.7h13.1v7.1h-13.1v27.6 c0,6.3,1.8,9.9,6.8,9.9c2.4,0,4.1-0.3,5.3-0.6l0.4,7c-1.8,0.7-4.6,1.3-8.1,1.3c-4.3,0-7.7-1.4-9.9-3.9c-2.6-2.7-3.5-7.3-3.5-13.3 V110h-7.8v-7.1h7.8v-9.3L236.1,91.2z"/> <path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M71.1,201.7c0-5.3-0.1-9.6-0.4-13.8h8l0.4,8.2 h0.3c2.8-4.9,7.5-9.4,15.8-9.4c6.8,0,12,4.2,14.2,10.2h0.2c1.6-2.9,3.5-5.1,5.6-6.7c3-2.3,6.3-3.6,11.1-3.6 c6.6,0,16.5,4.4,16.5,22.2V239h-8.9v-28.9c0-9.8-3.5-15.7-10.9-15.7c-5.2,0-9.2,3.9-10.8,8.4c-0.4,1.3-0.7,3-0.7,4.6V239h-8.9 v-30.6c0-8.1-3.5-14-10.5-14c-5.7,0-9.9,4.6-11.3,9.3c-0.5,1.4-0.7,3-0.7,4.5V239h-8.9V201.7z"/> <path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M179.2,173.5c0.1,3.2-2.2,5.7-5.8,5.7 c-3.2,0-5.5-2.5-5.5-5.7c0-3.3,2.4-5.8,5.7-5.8C177.1,167.7,179.2,170.3,179.2,173.5z M169.1,239v-51.1h9.1V239H169.1z"/> <path fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M210.8,187.9l7.2,11c1.9,2.9,3.4,5.5,5.1,8.3 h0.3c1.7-3.1,3.3-5.7,5-8.5l7.1-10.9h9.9l-17.1,24.7l17.6,26.4h-10.4l-7.4-11.5c-2-3-3.6-5.8-5.4-8.9h-0.2 c-1.7,3.1-3.4,5.8-5.3,8.9l-7.3,11.5h-10.1l17.8-26.1l-17-25H210.8z"/> </svg>
+    <h2 class="headerLogoText">Press Room</h2>
+  </div>
+  <div class="headerMenu flex">
+    <a href="">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="25" height="25"><path d="M508.5 481.6l-129-129c-2.3-2.3-5.3-3.5-8.5-3.5h-10.3C395 312 416 262.5 416 208 416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c54.5 0 104-21 141.1-55.2V371c0 3.2 1.3 6.2 3.5 8.5l129 129c4.7 4.7 12.3 4.7 17 0l9.9-9.9c4.7-4.7 4.7-12.3 0-17zM208 384c-97.3 0-176-78.7-176-176S110.7 32 208 32s176 78.7 176 176-78.7 176-176 176z"/></svg>
+    </a>
+    <a href="">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="25" height="25"><path d="M442 114H6a6 6 0 0 1-6-6V84a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6z"/></svg>
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="heroTitleWrapper">
+  <div class="heroTitleAnimation block">
+    <h1 class="heroTitleLine1">Bem-vindo</h1>
+    <h1 class="heroTitleLine2">MktMix.PressRoom</h1>
+  </div>
+  <nav class="heroMenu flex">
+    <a class="heroMenuBtn block">
+      <h4>tudo</h4>
+      <div class="heroMenuBtnLine"></div>
+    </a>
+    <a class="heroMenuBtn block">
+      <h4>moda</h4>
+      <div class="heroMenuBtnLine"></div>
+    </a>
+    <a class="heroMenuBtn block">
+      <h4>beleza</h4>
+      <div class="heroMenuBtnLine"></div>
+    </a>
+    <a class="heroMenuBtn block">
+      <h4>lifestyle</h4>
+      <div class="heroMenuBtnLine"></div>
+    </a>
+    <a class="heroMenuBtn block">
+      <h4>food&drinks</h4>
+      <div class="heroMenuBtnLine"></div>
+    </a>
+    <a class="heroMenuBtn block">
+      <h4>negócios</h4>
+      <div class="heroMenuBtnLine"></div>
+    </a>
+    <a class="heroMenuBtn block">
+      <h4>impacto social</h4>
+      <div class="heroMenuBtnLine"></div>
+    </a>
+  </nav>
+  <div class="headerForm flex">
+    <div class="headerFormSearchWrapper flex">
+      <input type="text" class="inputHeader">
+      <a href="" class="headerSearchBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20"><path d="M508.5 481.6l-129-129c-2.3-2.3-5.3-3.5-8.5-3.5h-10.3C395 312 416 262.5 416 208 416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c54.5 0 104-21 141.1-55.2V371c0 3.2 1.3 6.2 3.5 8.5l129 129c4.7 4.7 12.3 4.7 17 0l9.9-9.9c4.7-4.7 4.7-12.3 0-17zM208 384c-97.3 0-176-78.7-176-176S110.7 32 208 32s176 78.7 176 176-78.7 176-176 176z"/></svg>
+      </a>
+    </div>
+    <div class="headerDropdown flex shadow-shorter">
+      <span class="headerDropdownTitle">Filtrar por cliente</span>
+      <div class="headerDropdownBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="25" height="25" class="headerDropdownBtnSvg"><path d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"/></svg>
+      </div>
+      <div class="headerDropdownListWrapper shadow-shorter">
+        <div class="dropDownListOverflow flex">
+          <ul class="flex">
+            <li class="headerDropdownChoice">Arezzo</li>
+            <li class="headerDropdownChoice">Chandom</li>
+            <li class="headerDropdownChoice">Mary Kay</li>
+            <li class="headerDropdownChoice">Amend</li>
+            <li class="headerDropdownChoice">Multiplan</li>
+            <li class="headerDropdownChoice">Strella Galicia</li>
+            <li class="headerDropdownChoice">Arezzo</li>
+            <li class="headerDropdownChoice">Chandom</li>
+            <li class="headerDropdownChoice">Mary Kay</li>
+            <li class="headerDropdownChoice">Amend</li>
+            <li class="headerDropdownChoice">Multiplan</li>
+            <li class="headerDropdownChoice">Strella Galicia</li>
+            <li class="headerDropdownChoice">Arezzo</li>
+            <li class="headerDropdownChoice">Chandom</li>
+            <li class="headerDropdownChoice">Mary Kay</li>
+            <li class="headerDropdownChoice">Amend</li>
+            <li class="headerDropdownChoice">Multiplan</li>
+            <li class="headerDropdownChoice">Strella Galicia</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="spacer"></div>
+
+
+
+
+
+
+
+
+<div class="contentBlocksWrapper grid">
+
+
+  <div class="contentBlock grid shadow-shorter">
+    <div class="contentBlockImgWrapper">
+      <div class="contentBlockImg contentBlockImg1"></div>
+    </div>
+    <div class="contentBlockHeader flex">
+      <a href="">MODA</a>
+      <span>03.08.2020</span>
+    </div>
+    <a href="" class="contentBlockBrand">Colcci</a>
+    <div class="contentBlockTitleWrapper grid">
+      <a href="">
+        <h3 class="contentBlockTitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officiis laudantium dolores.
+        </h3>
+      </a>
+      <div class="contentBlockTagsWrapper flex">
+        <a href="" class="contentBlockTag">lifestyle</a>
+        <a href="" class="contentBlockTag">beleza</a>
+        <a href="" class="contentBlockTag">viagem</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="contentBlock grid shadow-shorter">
+    <div class="contentBlockImgWrapper">
+      <div class="contentBlockImg contentBlockImg2"></div>
+    </div>
+    <div class="contentBlockHeader flex">
+      <a href="">MODA</a>
+      <span>03.08.2020</span>
+    </div>
+    <a href="" class="contentBlockBrand">Colcci</a>
+    <div class="contentBlockTitleWrapper grid">
+      <a href="">
+        <h3 class="contentBlockTitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officiis laudantium dolores.
+        </h3>
+      </a>
+      <div class="contentBlockTagsWrapper flex">
+        <a href="" class="contentBlockTag">lifestyle</a>
+        <a href="" class="contentBlockTag">beleza</a>
+        <a href="" class="contentBlockTag">viagem</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div class="contentBlock grid shadow-shorter">
+    <div class="contentBlockImgWrapper">
+      <div class="contentBlockImg contentBlockImg3"></div>
+    </div>
+    <div class="contentBlockHeader flex">
+      <a href="">MODA</a>
+      <span>03.08.2020</span>
+    </div>
+    <a href="" class="contentBlockBrand">Colcci</a>
+    <div class="contentBlockTitleWrapper grid">
+      <a href="">
+        <h3 class="contentBlockTitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officiis laudantium dolores.
+        </h3>
+      </a>
+      <div class="contentBlockTagsWrapper flex">
+        <a href="" class="contentBlockTag">lifestyle</a>
+        <a href="" class="contentBlockTag">beleza</a>
+        <a href="" class="contentBlockTag">viagem</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div class="contentBlock grid shadow-shorter">
+    <div class="contentBlockImgWrapper">
+      <div class="contentBlockImg contentBlockImg4"></div>
+    </div>
+    <div class="contentBlockHeader flex">
+      <a href="">MODA</a>
+      <span>03.08.2020</span>
+    </div>
+    <a href="" class="contentBlockBrand">Colcci</a>
+    <div class="contentBlockTitleWrapper grid">
+      <a href="">
+        <h3 class="contentBlockTitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officiis laudantium dolores.
+        </h3>
+      </a>
+      <div class="contentBlockTagsWrapper flex">
+        <a href="" class="contentBlockTag">lifestyle</a>
+        <a href="" class="contentBlockTag">beleza</a>
+        <a href="" class="contentBlockTag">viagem</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div class="contentBlock grid shadow-shorter">
+    <div class="contentBlockImgWrapper">
+      <div class="contentBlockImg contentBlockImg5"></div>
+    </div>
+    <div class="contentBlockHeader flex">
+      <a href="">MODA</a>
+      <span>03.08.2020</span>
+    </div>
+    <a href="" class="contentBlockBrand">Colcci</a>
+    <div class="contentBlockTitleWrapper grid">
+      <a href="">
+        <h3 class="contentBlockTitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officiis laudantium dolores.
+        </h3>
+      </a>
+      <div class="contentBlockTagsWrapper flex">
+        <a href="" class="contentBlockTag">lifestyle</a>
+        <a href="" class="contentBlockTag">beleza</a>
+        <a href="" class="contentBlockTag">viagem</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div class="contentBlock grid shadow-shorter">
+    <div class="contentBlockImgWrapper">
+      <div class="contentBlockImg contentBlockImg6"></div>
+    </div>
+    <div class="contentBlockHeader flex">
+      <a href="">MODA</a>
+      <span>03.08.2020</span>
+    </div>
+    <a href="" class="contentBlockBrand">Colcci</a>
+    <div class="contentBlockTitleWrapper grid">
+      <a href="">
+        <h3 class="contentBlockTitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officiis laudantium dolores.
+        </h3>
+      </a>
+      <div class="contentBlockTagsWrapper flex">
+        <a href="" class="contentBlockTag">lifestyle</a>
+        <a href="" class="contentBlockTag">beleza</a>
+        <a href="" class="contentBlockTag">viagem</a>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div class="contentBlock grid shadow-shorter">
+    <div class="contentBlockImgWrapper">
+      <div class="contentBlockImg contentBlockImg7"></div>
+    </div>
+    <div class="contentBlockHeader flex">
+      <a href="">MODA</a>
+      <span>03.08.2020</span>
+    </div>
+    <a href="" class="contentBlockBrand">Colcci</a>
+    <div class="contentBlockTitleWrapper grid">
+      <a href="">
+        <h3 class="contentBlockTitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officiis laudantium dolores.
+        </h3>
+      </a>
+      <div class="contentBlockTagsWrapper flex">
+        <a href="" class="contentBlockTag">lifestyle</a>
+        <a href="" class="contentBlockTag">beleza</a>
+        <a href="" class="contentBlockTag">viagem</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div class="contentBlock grid shadow-shorter">
+    <div class="contentBlockImgWrapper">
+      <div class="contentBlockImg contentBlockImg8"></div>
+    </div>
+    <div class="contentBlockHeader flex">
+      <a href="">MODA</a>
+      <span>03.08.2020</span>
+    </div>
+    <a href="" class="contentBlockBrand">Colcci</a>
+    <div class="contentBlockTitleWrapper grid">
+      <a href="">
+        <h3 class="contentBlockTitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officiis laudantium dolores.
+        </h3>
+      </a>
+      <div class="contentBlockTagsWrapper flex">
+        <a href="" class="contentBlockTag">lifestyle</a>
+        <a href="" class="contentBlockTag">beleza</a>
+        <a href="" class="contentBlockTag">viagem</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div class="contentBlock grid shadow-shorter">
+    <div class="contentBlockImgWrapper">
+      <div class="contentBlockImg contentBlockImg9"></div>
+    </div>
+    <div class="contentBlockHeader flex">
+      <a href="">MODA</a>
+      <span>03.08.2020</span>
+    </div>
+    <a href="" class="contentBlockBrand">Colcci</a>
+    <div class="contentBlockTitleWrapper grid">
+      <a href="">
+        <h3 class="contentBlockTitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officiis laudantium dolores.
+        </h3>
+      </a>
+      <div class="contentBlockTagsWrapper flex">
+        <a href="" class="contentBlockTag">lifestyle</a>
+        <a href="" class="contentBlockTag">beleza</a>
+        <a href="" class="contentBlockTag">viagem</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div class="contentBlock grid shadow-shorter">
+    <div class="contentBlockImgWrapper">
+      <div class="contentBlockImg contentBlockImg10"></div>
+    </div>
+    <div class="contentBlockHeader flex">
+      <a href="">MODA</a>
+      <span>03.08.2020</span>
+    </div>
+    <a href="" class="contentBlockBrand">Colcci</a>
+    <div class="contentBlockTitleWrapper grid">
+      <a href="">
+        <h3 class="contentBlockTitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officiis laudantium dolores.
+        </h3>
+      </a>
+      <div class="contentBlockTagsWrapper flex">
+        <a href="" class="contentBlockTag">lifestyle</a>
+        <a href="" class="contentBlockTag">beleza</a>
+        <a href="" class="contentBlockTag">viagem</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div class="contentBlock grid shadow-shorter">
+    <div class="contentBlockImgWrapper">
+      <div class="contentBlockImg contentBlockImg11"></div>
+    </div>
+    <div class="contentBlockHeader flex">
+      <a href="">MODA</a>
+      <span>03.08.2020</span>
+    </div>
+    <a href="" class="contentBlockBrand">Colcci</a>
+    <div class="contentBlockTitleWrapper grid">
+      <a href="">
+        <h3 class="contentBlockTitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officiis laudantium dolores.
+        </h3>
+      </a>
+      <div class="contentBlockTagsWrapper flex">
+        <a href="" class="contentBlockTag">lifestyle</a>
+        <a href="" class="contentBlockTag">beleza</a>
+        <a href="" class="contentBlockTag">viagem</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div class="contentBlock grid shadow-shorter">
+    <div class="contentBlockImgWrapper">
+      <div class="contentBlockImg contentBlockImg12"></div>
+    </div>
+    <div class="contentBlockHeader flex">
+      <a href="">MODA</a>
+      <span>03.08.2020</span>
+    </div>
+    <a href="" class="contentBlockBrand">Colcci</a>
+    <div class="contentBlockTitleWrapper grid">
+      <a href="">
+        <h3 class="contentBlockTitle">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officiis laudantium dolores.
+        </h3>
+      </a>
+      <div class="contentBlockTagsWrapper flex">
+        <a href="" class="contentBlockTag">lifestyle</a>
+        <a href="" class="contentBlockTag">beleza</a>
+        <a href="" class="contentBlockTag">viagem</a>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+<!-- final fullContainer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/animateStart.js"></script>
+<script src="js/loadContent.js"></script>
+<script src="js/headerDropdown.js"></script>
+<script src="js/scrollAnimations.js"></script>
+
+  </body>
+</html>

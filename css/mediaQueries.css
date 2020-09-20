@@ -1,0 +1,475 @@
+@media (min-width: 2001px) {
+	h1 {
+		/* font-size: 240px; */
+	}
+	h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	p {
+		font-size: 16px;
+	}
+	span {
+		font-size: 14px;
+	}
+
+	a {
+		font-size: 14px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1500px) and (max-width: 2000px) {
+	h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	p {
+		font-size: 16px;
+	}
+	span {
+		font-size: 14px;
+	}
+
+	a {
+		font-size: 14px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px) and (max-width: 1499px) {
+	h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 13px;
+	}
+
+	h5, p {
+		font-size: 14px;
+	}
+
+	span, a, .dropDownListOverflow li {
+		font-size: 12px;
+	}
+
+
+
+	input {
+		font-size: 14px;
+	}
+
+	.headerDropdown {
+		flex-basis: 240px;
+	}
+
+	.headerFormSearchWrapper {
+		flex-basis: 300px;
+	}
+
+	.contentBlocksWrapper {
+		column-gap: 7vw;
+		row-gap: 180px;
+	}
+
+	.contentBlock {
+		grid-template-rows: auto 40vh auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 799px) {
+	h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 13px;
+	}
+
+	h5, p {
+		font-size: 14px;
+	}
+
+	span, a, .dropDownListOverflow li {
+		font-size: 12px;
+	}
+
+
+
+	input {
+		font-size: 14px;
+	}
+
+	.headerDropdown {
+		flex-basis: 300px;
+		flex-shrink: 1;
+		flex-grow: 1;
+		margin: 0;
+		margin-top: 20px;		
+	}
+
+	.spacer {
+		height: 100vh;
+		pointer-events: none;
+		transition: 1s ease all;
+	}
+
+	.spacerAnimate {
+		transition: 0.5s ease all !important;
+		height: 80vh !important;
+	}
+
+
+	.contentBlocksWrapper {
+		grid-template-columns: 1fr;
+		margin: 30px;
+		row-gap: 70px;
+	}
+
+	.contentBlock {
+		top: 0 !important
+	}
+
+	.headerWrapper {
+		padding: 20px;
+	}
+
+	.contentBlocksWrapperAnimate {
+		padding-bottom: 0;
+	}
+
+	.headerForm {
+		padding: 0 20px;
+		margin: 0;
+	}
+
+	.headerFormSearchWrapper {
+		flex-basis: 300px;
+		flex-shrink: 1;
+		flex-grow: 1;
+	}
+
+	.contentBlock {
+		grid-template-rows: auto 40vh auto;
+	}
+
+
+
+.newsBackground svg:nth-of-type(1) {
+	width: 130vw;
+	height: auto;
+	position: absolute;
+	transform: translate(7vw, 100vh);
+}
+
+.newsBackground svg:nth-of-type(2) {
+	width: 130vw;
+	height: auto;
+	position: absolute;
+	transform: translate(-7vw, 200vh);
+}
+
+.newsBackground svg:nth-of-type(3) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(-7vw, 300vh);
+}
+
+.newsBackground svg:nth-of-type(4) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(7vw, 400vh);
+}
+
+.newsBackground svg:nth-of-type(5) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(-10vw, 500vh);
+}
+
+.newsBackground svg:nth-of-type(6) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(7vw, 600vh);
+}
+
+.newsBackground svg:nth-of-type(7) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(10vw, 900vh);
+}
+
+.newsBackground svg:nth-of-type(8) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(-9vw, 700vh);
+}
+
+.newsBackground svg:nth-of-type(9) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(5vw, 800vh);
+}
+
+.newsBackground svg:nth-of-type(10) {
+	width: 130vw;
+	height: auto;
+	position: absolute;
+	transform: translate(7vw, 1000vh);
+}
+
+.newsBackground svg:nth-of-type(11) {
+	width: 130vw;
+	height: auto;
+	position: absolute;
+	transform: translate(-7vw, 1100vh);
+}
+
+.newsBackground svg:nth-of-type(12) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(-7vw, 1200vh);
+}
+
+.newsBackground svg:nth-of-type(13) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(7vw, 1300vh);
+}
+
+.newsBackground svg:nth-of-type(14) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(-10vw, 1370vh);
+}
+
+.newsBackground svg:nth-of-type(15) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(7vw, 1500vh);
+}
+
+.newsBackground svg:nth-of-type(16) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(10vw, 1600vh);
+}
+
+.newsBackground svg:nth-of-type(17) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(-9vw, 1700vh);
+}
+
+.newsBackground svg:nth-of-type(18) {
+	width: 150vw;
+	height: auto;
+	position: absolute;
+	transform: translate(5vw, 1800vh);
+}
+
+
+
+
+
+
+
+
+
+.conteudoScrollHeaderWrapper {
+	flex-wrap: wrap;
+	grid-column: 1 / -1;
+	grid-row: 1;
+	padding: 15px 30px 15px 20px;
+	z-index: 5;
+}
+
+
+.conteudoImgsWrapper {
+	flex-flow: column wrap;
+	height: 60vh;
+	padding: 0 30px;
+}
+
+.conteudoScrollHeaderBtns {
+	order: 1;
+	flex-shrink: 2;
+	flex-grow: 1;
+	flex-basis: 90vw;
+	justify-content: flex-end;
+}
+
+.conteudoTAGBtn {
+	order: 3;
+	flex-shrink: 2;
+}
+
+.conteudoBrandBtn {
+	order: 4;
+}
+
+.conteudoImgsWrapper {
+	grid-column: 1 / -1;
+	grid-row: 1 / 3;
+	padding-top: 180px;
+}
+
+.conteudoScrollCloseBtn {
+	flex-shrink: 1;
+	margin-left: auto;
+	margin-bottom: 20px;
+	padding: 9px;
+	justify-self: flex-end;
+	order: 0;
+}
+
+.conteudoScrollWrapper {
+	grid-column: 1 / -1;
+	grid-row: 3 / 4;
+}
+
+.conteudoWrapper {
+	grid-template-rows: auto auto auto;
+	grid-auto-rows: auto;
+}
+
+.conteudoScrollTextWrapper {
+	padding: 10px;
+	margin: 5vw;
+    overflow-y: auto;
+    overflow-x: auto;
+    height: auto;
+}
+
+.conteudoScrollTextWrapper h4 {
+	font-size: var(--h4Size);
+}
+
+.conteudoScrollTextOverlay > * {
+	line-height: 2;
+}
+
+
+.conteudosSvgBg svg:nth-of-type(1) {
+	width: 70vw;
+	transform: translate(-30vw, 30vh) rotate(90deg);
+}
+
+.conteudosSvgBg svg:nth-of-type(2) {
+    width: 70vw;
+    transform: translate(-13vw, -17vh) rotate(159deg);
+    z-index: 2;
+}
+
+.conteudosSvgBg svg:nth-of-type(3) {
+    width: 70vw;
+    transform: translate(48vw, -6vh) rotate(110deg);
+}
+
+.conteudosSvgBg svg:nth-of-type(4) {
+	width: 50vw;
+    transform: translate(60vw, 33vh)  rotate(40deg);
+}
+
+}
